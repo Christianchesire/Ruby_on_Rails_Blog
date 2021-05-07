@@ -35,7 +35,7 @@ class ArticlesController < ApplicationController
             redirect_to @article 
         else
             render 'edit'
-
+            
         end
     end
 
