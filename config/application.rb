@@ -3,7 +3,7 @@ require_relative "boot"
 require "rails/all"
 
 # To resolve -- Don't know how to build task 'precompile:assets' (See the list of available tasks with `rails --tasks`)
-requires 'sprockets/railtile'
+# require 'sprockets/railtile'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
