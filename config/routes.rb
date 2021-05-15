@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   get 'about', to: 'pages#about'
   resources :articles
   get 'signup', to: 'users#new'
+  
   resources :users, except: [:new]
   # Above has same effect 
   #, only: [:show, :index, :new, :create, :edit, :update, :destroy]
